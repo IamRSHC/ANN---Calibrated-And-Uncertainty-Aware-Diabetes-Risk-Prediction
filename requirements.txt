@@ -1,0 +1,19 @@
+# Python 3.12.x (built on 3.12.10). Top-level dependencies, exact pins from pip freeze (01 Oct 2026).
+# nbconvert/nbformat/ipykernel are pinned because notebooks are executed headless for Restart & Run All.
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+imbalanced-learn==0.14.2
+xgboost==3.4.1
+shap==0.52.0
+statsmodels==0.15.0
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
+jupyter==1.1.1
+nbconvert==7.17.1
+nbformat==5.11.1
+ipykernel==7.4.0
+streamlit==1.64.0
+pytest==9.1.1
