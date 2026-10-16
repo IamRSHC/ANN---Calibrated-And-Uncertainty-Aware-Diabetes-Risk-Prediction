@@ -1,0 +1,74 @@
+{
+  "features": [
+    "HighBP",
+    "HighChol",
+    "CholCheck",
+    "Smoker",
+    "Stroke",
+    "HeartDiseaseorAttack",
+    "PhysActivity",
+    "Fruits",
+    "Veggies",
+    "HvyAlcoholConsump",
+    "AnyHealthcare",
+    "NoDocbcCost",
+    "DiffWalk",
+    "Sex",
+    "BMI",
+    "MentHlth",
+    "PhysHlth",
+    "GenHlth",
+    "Age",
+    "Education",
+    "Income"
+  ],
+  "continuous": [
+    "BMI",
+    "MentHlth",
+    "PhysHlth"
+  ],
+  "ordinal": [
+    "GenHlth",
+    "Age",
+    "Education",
+    "Income"
+  ],
+  "bmi_clip": [
+    18.0,
+    50.0
+  ],
+  "mu": {
+    "BMI": 28.28409965815651,
+    "MentHlth": 3.1827353638631393,
+    "PhysHlth": 4.220880169997844
+  },
+  "sd": {
+    "BMI": 6.02198905772103,
+    "MentHlth": 7.415106933113564,
+    "PhysHlth": 8.702055018707055
+  },
+  "ordinal_min": {
+    "GenHlth": 1,
+    "Age": 1,
+    "Education": 1,
+    "Income": 1
+  },
+  "ordinal_max": {
+    "GenHlth": 5,
+    "Age": 13,
+    "Education": 6,
+    "Income": 8
+  },
+  "hidden": [
+    64,
+    32
+  ],
+  "dropout": 0.2,
+  "temperature": 0.3465849913819033,
+  "bias": -1.7864826446216968,
+  "threshold": 0.12000000000000001,
+  "tau": 1.100782362556415,
+  "mc_passes": 50,
+  "focal_alpha": 0.86,
+  "focal_gamma": 2.0
+}

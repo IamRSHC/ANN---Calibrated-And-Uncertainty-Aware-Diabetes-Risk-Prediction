@@ -1,0 +1,7 @@
+scenario,calibrated risk,uncertainty,refer?
+Current profile,0.7171,0.1257,False
+BMI - 5,0.6851,0.126,False
+Physically active,0.687,0.1301,False
+Blood pressure controlled,0.6332,0.1238,False
+Cholesterol controlled,0.6052,0.1165,False
+All of the above,0.4257,0.0921,False

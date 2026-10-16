@@ -1,0 +1,9 @@
+Baseline,ANN right / baseline wrong,ANN wrong / baseline right,chi2,p-value,Significant (p<0.05)
+Logistic Regression,1255,1192,1.57,2.10e-01,False
+KNN,2992,1974,208.27,3.27e-47,True
+SVM (RBF),1349,1049,37.28,1.02e-09,True
+Random Forest,1249,1317,1.75,1.86e-01,False
+XGBoost,718,1433,237.0,1.77e-53,True
+Gaussian NB,4071,2011,697.05,1.31e-153,True
+MLP (sklearn),1136,1242,4.64,3.13e-02,True
+Stacking Ensemble,1178,837,57.37,3.61e-14,True

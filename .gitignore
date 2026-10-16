@@ -1,6 +1,24 @@
+# Python / environment
 .venv/
-data/raw/
-notes/
 __pycache__/
-.ipynb_checkpoints/
+*.pyc
 .pytest_cache/
+.ipynb_checkpoints/
+.env
+.streamlit/secrets.toml
+
+# Data (download from Kaggle; see README)
+data/raw/
+
+# Private notes and non-code deliverables
+notes/
+CLAUDE.md
+Claude outputs/
+*.docx
+*.zip
+
+# Editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

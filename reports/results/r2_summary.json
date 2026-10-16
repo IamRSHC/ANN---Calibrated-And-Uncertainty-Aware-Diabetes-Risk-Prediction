@@ -1,0 +1,85 @@
+{
+  "split": {
+    "train": 202944,
+    "test": 50736,
+    "fit": 162355,
+    "val": 40589,
+    "shared_rows": 0
+  },
+  "gradient_check": {
+    "BCE": 3.602700576542466e-11,
+    "Focal (alpha=0.75, gamma=2)": 1.3325096861238339e-10
+  },
+  "focal_search": [
+    {
+      "alpha": 0.86,
+      "gamma": 2.0,
+      "val PR-AUC": 0.4343,
+      "epochs run": 25
+    },
+    {
+      "alpha": 0.86,
+      "gamma": 1.0,
+      "val PR-AUC": 0.4332,
+      "epochs run": 25
+    },
+    {
+      "alpha": 0.75,
+      "gamma": 2.0,
+      "val PR-AUC": 0.4329,
+      "epochs run": 16
+    },
+    {
+      "alpha": 0.75,
+      "gamma": 1.0,
+      "val PR-AUC": 0.4322,
+      "epochs run": 18
+    }
+  ],
+  "alpha": 0.86,
+  "gamma": 2.0,
+  "temperature": 0.3465849913819033,
+  "bias": -1.7864826446216968,
+  "tau": 1.100782362556415,
+  "thresholds": {
+    "Logistic Regression": 0.43000000000000005,
+    "KNN": 0.12000000000000001,
+    "SVM (RBF)": 0.11,
+    "Random Forest": 0.45,
+    "XGBoost": 0.47000000000000003,
+    "Gaussian NB": 0.03,
+    "MLP (sklearn)": 0.12000000000000001,
+    "Stacking Ensemble": 0.1,
+    "Proposed ANN": 0.12000000000000001
+  },
+  "tuning": {
+    "Logistic Regression": [
+      "{'C': 10}",
+      0.4081983200469246
+    ],
+    "Random Forest": [
+      "{'min_samples_leaf': 50, 'max_features': 'sqrt', 'max_depth': 12}",
+      0.40958893189093354
+    ],
+    "XGBoost": [
+      "{'subsample': 0.8, 'max_depth': 3, 'learning_rate': 0.03, 'colsample_bytree': 0.9}",
+      0.4157974950200131
+    ],
+    "KNN": [
+      "{'n_neighbors': 151}",
+      0.3874042187351748
+    ]
+  },
+  "fit_time_s": {
+    "Logistic Regression": 3.608621120452881,
+    "KNN": 9.130606412887573,
+    "SVM (RBF)": 82.3241617679596,
+    "Random Forest": 18.327243328094482,
+    "XGBoost": 2.0317037105560303,
+    "Gaussian NB": 0.09906673431396484,
+    "MLP (sklearn)": 16.048556566238403
+  },
+  "ann_epochs": 31,
+  "ann_best_val_prauc": 0.43434459095078065,
+  "runtime_min": 8.903146028518677
+}

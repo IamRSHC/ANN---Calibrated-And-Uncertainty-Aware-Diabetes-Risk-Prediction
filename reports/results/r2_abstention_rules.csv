@@ -1,0 +1,3 @@
+,referred,error rate referred,error rate accepted
+Margin rule |mu - t|/sigma < tau (used),5193.0,0.49913344887348354,0.29080209911512195
+Naive rule sigma > 90th pct,5145.0,0.5403304178814383,0.28637231032440613

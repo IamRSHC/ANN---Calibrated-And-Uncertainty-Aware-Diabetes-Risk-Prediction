@@ -1,0 +1,5 @@
+variant,PR-AUC,ROC-AUC,Brier,Recall@F2,F2
+"Plain MLP (BCE, no weighting)",0.4318,0.8305,0.0967,0.8453,0.6073
++ class-weighted BCE,0.4333,0.8299,0.1708,0.8571,0.6065
++ class-weighted focal loss,0.4343,0.8297,0.1847,0.8389,0.6064
++ MC dropout (50 passes) + calibration,0.4345,0.8296,0.0967,0.841,0.6064
